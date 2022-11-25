@@ -22,7 +22,7 @@ namespace RulesEngine.UnitTest {
 										new Rule {
 												RuleName = "EmptyCollectionTestRule",
 												RuleExpressionType = RuleExpressionType.LambdaExpression,
-												// None of the values should be 1
+												// None of the values should be greater than 1
 												Expression = "!test.intArray.Any(n => n > 1)"
 										}
 								}
